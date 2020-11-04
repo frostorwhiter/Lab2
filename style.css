@@ -1,0 +1,79 @@
+* {
+    font-family: "Roboto", "Times New Roman", sans-serif;
+}
+section {
+    background-color: lightgrey;
+    border: 15px solid green;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%; 
+}
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+h3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+
+table {
+    background-color: lightgrey;
+    border: 15px solid green;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-spacing: 0;
+    padding: 1%;
+}
+
+td {
+
+    text-align: center;
+    padding: 4px;
+}
+
+.result {
+    font-size: 20px;
+}
+
+#triangle {
+
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+    border-spacing: 0;
+    
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 200px 200px;
+    border-color: transparent transparent #6880b0 transparent;
+
+}
+
+#calculateKatet {
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: 3px solid #0a3b0c;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    padding: 10px 16px;
+}
+
+#calculateKatet:hover {
+    background-color: #367e38;
+    color: black;
+}
